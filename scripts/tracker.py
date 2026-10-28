@@ -183,6 +183,8 @@ def main():
 
     elif args.cmd == "quota":
         cfg = settings()
+        if not cfg["auto_submit_enabled"] or os.path.exists("AUTO_APPLY_OFF"):
+            print(0); return
         print(max(0, cfg["max_auto_submits_per_day"] - submits_today(rows)))
 
     elif args.cmd == "claim":
