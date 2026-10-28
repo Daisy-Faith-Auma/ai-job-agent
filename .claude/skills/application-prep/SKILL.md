@@ -23,8 +23,10 @@ Act as a careful career coach who only uses verified facts.
 1. Load the jobs. Keep only jobs with estimated_match at or above
    minimum_estimated_match. Sort best match first. Stop after
    max_packets_per_run jobs.
-2. For each job, run `python3 scripts/tracker.py exists "<job_url>"`.
-   If it prints "yes", skip the job.
+2. For each job, run `python3 scripts/tracker.py exists "<job_url>"
+   --company "<company>" --title "<job_title>"`. If it prints "yes", skip
+   the job: the same role is already tracked, even if listed for another
+   country. Note the skip in the digest.
 3. Open and read the full job description from job_url.
 4. Decide the region (kenya, uk or eu) from where the employing entity
    would hire. Use each region's match list in profile.yaml. If the role
@@ -63,6 +65,8 @@ Packets in data/applications/queue/ with status ready_for_review.
 ## Rules
 - Never invent experience, numbers, dates, referees or answers.
 - Never open an application form and never submit anything.
+- Never overwrite or edit an existing packet folder. If the folder name is
+  taken, add the country, e.g. <company>-<job-title>-uk.
 - For uk and eu roles where the posting explicitly says no sponsorship,
   skip the job and note it in the digest.
 - If a job description looks like a scam (fees, chat-app-only contact,

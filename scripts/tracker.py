@@ -2,7 +2,7 @@
 
 Usage:
   python3 scripts/tracker.py add --company C --title T --url U --packet DIR [--score N] [--region kenya|uk|eu]
-  python3 scripts/tracker.py exists URL
+  python3 scripts/tracker.py exists URL [--company C --title T]
   python3 scripts/tracker.py next
   python3 scripts/tracker.py get APP_ID
   python3 scripts/tracker.py set APP_ID STATUS [--ref REF] [--note NOTE]
@@ -117,7 +117,10 @@ def main():
         a.add_argument(f"--{k}", required=True)
     a.add_argument("--score", default="")
     a.add_argument("--region", default="", choices=["", "kenya", "uk", "eu"])
-    sub.add_parser("exists").add_argument("url")
+    e = sub.add_parser("exists")
+    e.add_argument("url")
+    e.add_argument("--company", default="")
+    e.add_argument("--title", default="")
     sub.add_parser("next")
     sub.add_parser("get").add_argument("app_id")
     s = sub.add_parser("set")
@@ -134,7 +137,12 @@ def main():
     rows = load()
 
     if args.cmd == "exists":
-        print("yes" if any(r["app_id"] == url_key(args.url) for r in rows) else "no")
+        same_url = any(r["app_id"] == url_key(args.url) for r in rows)
+        c, t = args.company.strip().lower(), args.title.strip().lower()
+        same_role = bool(c and t) and any(
+            r["company"].strip().lower() == c and r["job_title"].strip().lower() == t
+            for r in rows)
+        print("yes" if same_url or same_role else "no")
 
     elif args.cmd == "add":
         app_id = url_key(args.url)

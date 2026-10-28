@@ -5,6 +5,7 @@ Usage: python3 scripts/dedupe.py data/jobs/candidates.json
 Compares every job against data/seen_jobs.csv using two keys:
   1. the cleaned-up URL (host + path, no www., no ?utm=... tracking)
   2. company + job title + location (catches the same job re-posted elsewhere)
+  3. company + job title (catches one role listed separately per country)
 Writes fresh jobs to data/jobs/new_jobs.json and records them as seen.
 """
 import csv
@@ -37,6 +38,11 @@ def ctl_key(j):
     return h("|".join(parts)) if any(parts) else ""
 
 
+def ct_key(j):
+    parts = [str(j.get(k) or "").strip().lower() for k in ("company", "job_title")]
+    return h("ct|" + "|".join(parts)) if all(parts) else ""
+
+
 def main():
     if len(sys.argv) != 2:
         sys.exit("Usage: python3 scripts/dedupe.py data/jobs/candidates.json")
@@ -45,14 +51,14 @@ def main():
     if os.path.exists(SEEN):
         with open(SEEN, newline="") as f:
             for r in csv.DictReader(f):
-                seen.update(k for k in (r["url_key"], r["ctl_key"]) if k)
+                seen.update(k for k in (r["url_key"], r["ctl_key"], ct_key(r)) if k)
 
     with open(sys.argv[1]) as f:
         jobs = json.load(f)
 
     new = []
     for j in jobs:
-        keys = {url_key(j.get("job_url")), ctl_key(j)} - {""}
+        keys = {url_key(j.get("job_url")), ctl_key(j), ct_key(j)} - {""}
         if not keys or keys & seen:
             continue  # already seen, or no usable key
         seen |= keys
