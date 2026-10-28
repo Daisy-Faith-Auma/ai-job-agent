@@ -1,0 +1,4 @@
+[    6864ms] [ERROR] Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID @ https://appvizer.one/ariadne/v1/ariadne.js?ts=1793189442206:0
+[    6935ms] [LOG] Variation recorded: {experienceId: 417242701, experienceName: AU Region Home, experienceType: rbp, variationId: 617136058, variationName: Base variation} @ https://www.greenhouse.com/uk:7056
+[    6935ms] [LOG] Squeeze Page Value: false for path: /uk @ https://www.greenhouse.com/uk:7090
+[    7241ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://track.getgobot.com/gobot/api/auth:0

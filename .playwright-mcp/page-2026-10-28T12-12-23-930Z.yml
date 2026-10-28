@@ -1,0 +1,573 @@
+- generic [ref=e1]:
+  - generic:
+    - link "Skip to Content" [ref=e2] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e5]:
+          - link "Greenhouse home" [ref=e6] [cursor=pointer]:
+            - /url: /uk
+            - img "Greenhouse" [ref=e7]
+          - navigation "Main" [ref=e8]:
+            - list [ref=e9]:
+              - listitem [ref=e10]:
+                - button "For employers" [ref=e12] [cursor=pointer]
+              - listitem [ref=e15]:
+                - link "For jobseekers" [ref=e16] [cursor=pointer]:
+                  - /url: /uk/for-job-seekers
+              - listitem [ref=e17]:
+                - link "Latest releases" [ref=e18] [cursor=pointer]:
+                  - /url: /uk/greenhouse-latest-features
+            - generic [ref=e19]:
+              - button "Login" [ref=e21] [cursor=pointer]
+              - link "Request a demo" [ref=e24] [cursor=pointer]:
+                - /url: /uk/demo
+          - text: 
+      - button "Search" [ref=e25] [cursor=pointer]
+  - main [ref=e26]:
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - heading "Hiring. Orchestrated." [level=1] [ref=e38]
+        - paragraph [ref=e40]: Sourcing, interviewing and ATS solutions in one place, where thousands of employers and millions of jobseekers come together to make hiring work for everyone in the AI era.
+      - generic [ref=e41]:
+        - link "Request a demo" [ref=e42] [cursor=pointer]:
+          - /url: /uk/demo
+        - link "Explore the ecosystem" [ref=e43] [cursor=pointer]:
+          - /url: /uk/products
+    - generic [ref=e47]:
+      - heading "What we offer" [level=3] [ref=e56]
+      - tablist [ref=e57]:
+        - tab "For employers" [selected] [ref=e58] [cursor=pointer]:
+          - generic [aria-hidden]: For employers
+        - tab "For jobseekers" [ref=e60] [cursor=pointer]:
+          - generic [aria-hidden]: For jobseekers
+      - tabpanel "For employers" [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - heading "Sourcing" [level=5] [ref=e70]
+              - generic [ref=e71]: Millions of jobseekers, brought forward right when a role opens.
+            - generic "Next" [ref=e73]
+          - link "Millions of jobseekers, brought forward right when a role opens." [ref=e76] [cursor=pointer]:
+            - /url: /uk/sourcing
+        - generic [ref=e78]:
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - heading "Interviewing" [level=5] [ref=e84]
+              - generic [ref=e85]: Voice AI gives every candidate a real first conversation.
+            - generic "Next" [ref=e87]
+          - link "Voice AI gives every candidate a real first conversation." [ref=e90] [cursor=pointer]:
+            - /url: /uk/voice-ai-interviewing
+        - generic [ref=e92]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - heading "ATS solutions" [level=5] [ref=e98]
+              - generic [ref=e99]: AI-powered ATS capabilities for the full hiring lifecycle.
+            - generic "Next" [ref=e101]
+          - link "AI-powered ATS capabilities for the full hiring lifecycle." [ref=e104] [cursor=pointer]:
+            - /url: /uk/ats
+    - generic [ref=e116]:
+      - heading "Greenhouse orchestrates hiring in a single hiring ecosystem where employers and jobseekers already are. The signal produced between them brings the right person and the right role together at the right time. ‍" [level=4] [ref=e117]: Greenhouse orchestrates hiring in a single hiring ecosystem where employers and jobseekers already are. The signal produced between them brings the right person and the right role together at the right time.‍
+      - heading "And trust in hiring gets restored." [level=4] [ref=e118]
+    - generic [ref=e121]:
+      - generic [ref=e128]:
+        - heading "Everything you need to hire in the AI era" [level=2] [ref=e131]
+        - paragraph [ref=e133]: The Greenhouse ecosystem is built from sourcing, interviewing and ATS solutions, with enterprise-grade security and governed AI.
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - heading "Talent sourcing" [level=4] [ref=e140]
+            - paragraph [ref=e142]: Qualified jobseekers for each role, from millions already in MyGreenhouse, brought forward right when a role opens.
+            - generic "Next" [ref=e145]
+          - 'img "List of project manager job seekers showing three candidates with their photos and skill match levels: Robert Nguyen and Julia Mendoza with very high skill match, and Caroline Kim with high skill match." [ref=e149]'
+          - link "Talent sourcing" [ref=e150] [cursor=pointer]:
+            - /url: /uk/sourcing
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - heading "Fraud detection" [level=4] [ref=e155]
+            - paragraph [ref=e157]: Greenhouse Real Talent™ flags fraud and misrepresentation, verifies candidates and prioritises the best-fit applicants so you can focus on the real, qualified people in your pipeline.
+            - generic "Next" [ref=e160]
+          - 'img "User interface showing a search result for ''Real Talent'' with 1,000 results, listing candidates and fraud filter statuses: Mark Kline not verified, Ben Jackson verified, Emma Cameron fraud alert." [ref=e164]'
+          - link "Fraud detection" [ref=e165] [cursor=pointer]:
+            - /url: /uk/product-features/greenhouse-real-talent
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - heading "AI interviewing" [level=4] [ref=e170]
+            - paragraph [ref=e172]: Greenhouse Voice AI provides a structured first conversation that helps teams identify qualified candidates more reliably than CVs.
+            - generic "Next" [ref=e175]
+          - img "User interface of a Voice AI interviewer showing a green 'Listening' indicator and a profile picture of candidate Peter O’Neil with an active green 'Speaking' status and orange sound waves beneath his image." [ref=e179]
+          - link "AI interviewing" [ref=e180] [cursor=pointer]:
+            - /url: /uk/voice-ai-interviewing
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - heading "Notetaker" [level=4] [ref=e185]
+            - paragraph [ref=e187]: Greenhouse Notetaker records, transcribes and summarises interviews, then maps AI-generated notes to scorecard questions so interviewers can stay focused on the conversation and provide accurate feedback.
+            - generic "Next" [ref=e190]
+          - 'img "Screenshot of an interview kit interface showing a video thumbnail of a smiling woman labeled Kira James (Candidate) with a play button overlay. Below are text interview questions and answers: Adam Anderson asks about making tradeoffs in a project at 05:54, and Kira James responds at 06:20 mentioning a dashboard project to track team time." [ref=e194]'
+          - link "Notetaker" [ref=e195] [cursor=pointer]:
+            - /url: /uk/product-features/greenhouse-notetaker
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - heading "Scheduling" [level=4] [ref=e200]
+            - paragraph [ref=e202]: Greenhouse Scheduling brings interview coordination to where your team already does its hiring, helping you meet your scheduling needs in one place, move faster and deliver a smoother candidate experience.
+            - generic "Next" [ref=e205]
+          - 'img "A scheduling links interface showing two meeting options: an active ''On-site interview'' for 30 minutes via Zoom with a toggle switch turned on and a ''Copy link'' button, and a disabled ''1 hour meeting'' on Google Meet expiring November 7, 2027, with a toggle switch turned off and the ''Copy link'' button grayed out." [ref=e209]'
+          - link "Scheduling" [ref=e210] [cursor=pointer]:
+            - /url: /ats#ats-scheduling
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - heading "Reporting & analytics" [level=4] [ref=e215]
+            - paragraph [ref=e217]: Greenhouse Analytics helps teams make faster, confident decisions. With AI-powered Chart Builder, turn plain-language questions into clear visualisations for instant insights.
+            - generic "Next" [ref=e220]
+          - img "Dashboard report showing 85 applications over time with a 20% increase indicated by a green arrow, alongside a colorful pie chart labeled time-to-hire dashboard." [ref=e224]
+          - link "Reporting & analytics" [ref=e225] [cursor=pointer]:
+            - /url: /uk/reporting-insights
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - heading "AI agents" [level=4] [ref=e230]
+            - paragraph [ref=e232]: Greenhouse AI and agentic workflows bring intelligent assistance to recruiters every day, reducing busywork so you can stay focused on moving hiring forward while remaining in control.
+            - generic "Next" [ref=e235]
+          - img "Interface of an AI agent with text showing 'Listening...', 'Generating response...', and a prompt area labeled 'Type for AI answers' with a paper plane icon for submitting." [ref=e239]
+          - link "AI agents" [ref=e240] [cursor=pointer]:
+            - /url: /uk/greenhouse-latest-features
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - heading "MCP & integrations" [level=4] [ref=e245]
+            - paragraph [ref=e247]: Connect Greenhouse to the AI and business tools you already use, like Claude, ChatGPT or Gemini, with governed access to live hiring data. Choose from our prebuilt integrations for your tech stack and an open API for custom workflows.
+            - generic "Next" [ref=e250]
+          - img "A section titled 'Hiring health brief' showing a search interface with icons and a filter labeled 'Agent.' Below is a chart for 'Flagged candidates' displaying a green circular progress ring with the number 3 in the center." [ref=e254]
+          - link "MCP & integrations" [ref=e255] [cursor=pointer]:
+            - /url: /uk/product-features/greenhouse-mcp
+    - generic [ref=e257]:
+      - generic [ref=e266]:
+        - generic [ref=e267]:
+          - generic [ref=e268]:
+            - paragraph [ref=e269]: Why Greenhouse
+            - heading "Built for hiring in the AI era" [level=3] [ref=e271]
+          - paragraph [ref=e273]: Replace disconnected hiring systems with the Greenhouse ecosystem that has the people, the process and the signal you need to make hiring happen.
+        - generic [ref=e274]:
+          - link "Request a demo" [ref=e275] [cursor=pointer]:
+            - /url: /uk/demo
+          - link "Explore the ecosystem" [ref=e276] [cursor=pointer]:
+            - /url: /uk/products
+      - img "An older woman with short gray hair and black glasses sits at a marble desk holding a pen, gesturing with her hand. She wears a beige blazer over a white shirt. On the desk are a cup of tea and a notepad with writing." [ref=e278]
+    - generic [ref=e282]:
+      - generic:
+        - heading "People" [level=2] [ref=e284]
+        - generic:
+          - img "Talent Discovery interface showing a list of candidates for Project Manager with match scores and a detailed profile card for Cian Quinn, indicating very high skills, experience, and education."
+        - generic [ref=e285]:
+          - paragraph [ref=e287]: People
+          - paragraph [ref=e288]: Employers run hiring here, and millions of jobseekers have chosen to be here too.
+        - link "Explore the ecosystem" [ref=e290] [cursor=pointer]:
+          - /url: /uk/products
+      - generic:
+        - heading "Process" [level=2] [ref=e292] [cursor=pointer]
+        - generic:
+          - img "Candidate scorecard displaying skills in communication, organizational skills, and campaign planning, with icons indicating ratings; an overlay shows a profile picture of Tomás Ruiz, Project Manager at Ominva Corp."
+        - generic:
+          - generic:
+            - paragraph: Process
+          - paragraph: Orchestrated hiring coordinates the moment jobseeker and opportunity align.
+        - generic:
+          - link "Explore the ecosystem":
+            - /url: /uk/products
+      - generic:
+        - heading "Signal" [level=2] [ref=e294] [cursor=pointer]
+        - generic:
+          - img "Job listing interface showing candidates for Project Manager with names Julia Mendoza, Tomás Ruiz, and Kira James on the left. A profile card on the right highlights Julia Mendoza with a photo, labeled as a Strong Match and marked as Dream Job."
+        - generic:
+          - generic:
+            - paragraph: Signal
+          - paragraph: Signal is produced between employers and jobseekers as hiring happens.
+        - generic:
+          - link "Explore the ecosystem":
+            - /url: /uk/products
+    - generic [ref=e296]:
+      - generic [ref=e297]:
+        - generic [ref=e303]:
+          - generic [ref=e306]:
+            - heading "The latest from Greenhouse" [level=3] [ref=e307]
+            - paragraph
+          - generic [ref=e308]:
+            - link "See latest features" [ref=e309] [cursor=pointer]:
+              - /url: /uk/greenhouse-latest-features
+            - link "See all resources" [ref=e310] [cursor=pointer]:
+              - /url: /uk/guidance
+        - generic [ref=e313]:
+          - generic [ref=e314]:
+            - 'img "A Voice AI interface showing two panels: the top panel labeled ''Listening'' with white waveform lines, and the bottom panel labeled ''Speaking'' with orange waveform lines and a smiling woman labeled as candidate Kira James." [ref=e316]'
+            - generic [ref=e317]:
+              - generic [ref=e318]: Voice AI
+              - generic [ref=e319]:
+                - heading "Two-way, voice-based AI interviewing" [level=3] [ref=e320]
+                - generic "Next" [ref=e322]
+            - link "Two-way, voice-based AI interviewing" [ref=e325] [cursor=pointer]:
+              - /url: /uk/voice-ai-interviewing
+          - generic [ref=e327]:
+            - img "An older woman with gray hair and glasses writing on paper at a dark marble table, across from a man in a dark suit, with notebooks and a decorative tray on the table near a window." [ref=e329]
+            - generic [ref=e330]:
+              - generic [ref=e331]: From our CEO
+              - generic [ref=e332]:
+                - heading "Introducing the Orchestrated Hiring Ecosystem" [level=3] [ref=e333]
+                - generic "Next" [ref=e335]
+            - link "Introducing the Orchestrated Hiring Ecosystem" [ref=e338] [cursor=pointer]:
+              - /url: /uk/blog/introducing-the-orchestrated-hiring-ecosystem
+          - generic [ref=e340]:
+            - img "Interview kit interface showing a video thumbnail of a smiling woman labeled Kira James (Candidate) with a play button overlay, followed by text of interview questions and answers from Adam Anderson and Kira James discussing project trade-offs and tracking team time." [ref=e342]
+            - generic [ref=e343]:
+              - generic [ref=e344]: Notetaker
+              - generic [ref=e345]:
+                - heading "Automatically record and transcribe interviews" [level=3] [ref=e346]
+                - generic "Next" [ref=e348]
+            - link "Automatically record and transcribe interviews" [ref=e351] [cursor=pointer]:
+              - /url: /uk/product-features/greenhouse-notetaker
+          - generic [ref=e353]:
+            - 'img "User interface showing a project manager hiring pipeline with candidate names and statuses. The section features two candidates: Lena Mercer, Project Manager, with application status ''Application review,'' and Jordan Reyes, Project Supervisor, with status ''Phone screen.''" [ref=e355]'
+            - generic [ref=e356]:
+              - generic [ref=e357]: MCP
+              - generic [ref=e358]:
+                - heading "Sync hiring data with your favourite AI tools" [level=3] [ref=e359]
+                - generic "Next" [ref=e361]
+            - link "Sync hiring data with your favourite AI tools" [ref=e364] [cursor=pointer]:
+              - /url: /uk/product-features/greenhouse-mcp
+          - generic [ref=e366]:
+            - img "Three circular portraits in a horizontal row on a peach background with semi-transparent rounded rectangles and text beneath each. Center portrait shows a smiling woman with gray braided hair labeled 'Strong Match' with a green shield icon. Left portrait shows a man with gray hair and glasses labeled 'High risk fraud' with an exclamation mark icon. Right portrait shows a smiling man with short dark hair and beard labeled 'Identity verified' with a blue user icon." [ref=e368]
+            - generic [ref=e369]:
+              - generic [ref=e370]: Real Talent
+              - generic [ref=e371]:
+                - heading "Reduce spam, fraud and misrepresentation in hiring" [level=3] [ref=e372]
+                - generic "Next" [ref=e374]
+            - link "Reduce spam, fraud and misrepresentation in hiring" [ref=e377] [cursor=pointer]:
+              - /url: /uk/product-features/greenhouse-real-talent
+          - generic [ref=e379]:
+            - img "Cover page titled 'The TA guide to working with legal and security' from Greenhouse, featuring a subheading about partnership in the age of fraud and AI risk, with an image of two professionals in discussion, one pointing to a laptop screen labeled 'High risk fraud'." [ref=e381]
+            - generic [ref=e382]:
+              - generic [ref=e383]: Legal & security eBook
+              - generic [ref=e384]:
+                - heading "How TA teams can partner with legal and security" [level=3] [ref=e385]
+                - generic "Next" [ref=e387]
+            - link "How TA teams can partner with legal and security" [ref=e390] [cursor=pointer]:
+              - /url: /uk/guidance/ta-guide-to-legal-security
+      - generic [ref=e395]:
+        - generic [ref=e396]: 01 / 06
+        - generic [ref=e397]:
+          - button "Previous resource" [ref=e398] [cursor=pointer]
+          - button "Next resource" [ref=e402] [cursor=pointer]
+    - generic [ref=e406]:
+      - generic [ref=e408]:
+        - heading "Trusted by 7,500+ companies and millions of jobseekers worldwide" [level=4] [ref=e417]
+        - link "Read customer stories" [ref=e419] [cursor=pointer]:
+          - /url: /uk/customer-stories
+      - generic [ref=e423]:
+        - img "Buzzfeed logo" [ref=e426]
+        - img "Seatgeek logo" [ref=e429]
+        - img "Doordash logo" [ref=e432]
+        - img "Hubspot logo" [ref=e435]
+        - img "Datavant logo" [ref=e438]
+    - region "Customer stories" [ref=e439]:
+      - generic [ref=e440]:
+        - tabpanel "Zapier" [ref=e443]:
+          - generic [ref=e444]:
+            - generic [ref=e445]:
+              - text: "0"
+              - generic [ref=e446]: "228"
+            - generic [ref=e447]: recruiter hours saved with Voice AI
+          - generic [ref=e448]:
+            - heading "Voice AI stood out immediately as the most sophisticated and intelligent solution by far. The platform’s intelligence, design and user experience are ahead of the curve." [level=2] [ref=e450]:
+              - strong [ref=e451]:
+                - generic [ref=e452]: Voice
+                - generic [ref=e453]: AI
+                - generic [ref=e454]: stood
+                - generic [ref=e455]: out
+                - generic [ref=e456]: immediately
+                - generic [ref=e457]: as
+                - generic [ref=e458]: the
+                - generic [ref=e459]: most
+                - generic [ref=e460]: sophisticated
+                - generic [ref=e461]: and
+                - generic [ref=e462]: intelligent
+                - generic [ref=e463]: solution
+                - generic [ref=e464]: by
+                - generic [ref=e465]: far.
+                - generic [ref=e466]: The
+                - generic [ref=e467]: platform’s
+                - generic [ref=e468]: intelligence,
+                - generic [ref=e469]: design
+                - generic [ref=e470]: and
+                - generic [ref=e471]: user
+                - generic [ref=e472]: experience
+                - generic [ref=e473]: are
+                - generic [ref=e474]: ahead
+                - generic [ref=e475]: of
+                - generic [ref=e476]: the
+                - generic [ref=e477]: curve.
+            - generic [ref=e478]:
+              - generic [ref=e479]:
+                - img "Zapier"
+                - paragraph [ref=e480]: Tracy St.Dic, Global Head of Talent
+              - link "Read the Zapier story" [ref=e483] [cursor=pointer]:
+                - /url: /uk/customer-stories/zapier-conversational-application-voice-ai
+        - tablist "Customer stories" [ref=e485]:
+          - tab [selected] [ref=e486] [cursor=pointer]:
+            - img "Zapier"
+          - tab [ref=e489] [cursor=pointer]:
+            - img "OBE logo"
+          - tab [ref=e492] [cursor=pointer]:
+            - img "Adyen"
+    - generic [ref=e495]:
+      - img "Three diverse business professionals smiling and engaging together in an office with large windows overlooking a city view, gathered around a desk with a computer and papers." [ref=e497]
+      - generic [ref=e498]:
+        - generic [ref=e503]:
+          - heading "Find the right person with Greenhouse" [level=4] [ref=e507]
+          - link "Request a demo" [ref=e509] [cursor=pointer]:
+            - /url: /uk/demo
+        - generic [ref=e515]:
+          - heading "Find the right role with MyGreenhouse" [level=4] [ref=e519]
+          - link "Sign up for MyGreenhouse" [ref=e521] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in
+    - generic [ref=e522]:
+      - generic [ref=e524]:
+        - generic [ref=e525]:
+          - paragraph [ref=e526]: Greenhouse trust and compliance
+          - paragraph [ref=e527]: ‍
+        - link "Learn more" [ref=e529] [cursor=pointer]:
+          - /url: /uk/security
+      - generic [ref=e532]:
+        - paragraph [ref=e535]: Product security
+        - paragraph [ref=e538]: Compliance
+        - paragraph [ref=e541]: Data privacy
+        - paragraph [ref=e544]: Product security
+        - paragraph [ref=e547]: Compliance
+        - paragraph [ref=e550]: Data privacy
+    - generic: “ ”
+  - contentinfo [ref=e553]:
+    - generic [ref=e555]:
+      - generic [ref=e556]:
+        - generic [ref=e557]:
+          - generic [ref=e558]:
+            - heading "Greenhouse for employers" [level=2] [ref=e559]
+            - list [ref=e560]:
+              - listitem [ref=e561]:
+                - link "Greenhouse Ecosystem" [ref=e562] [cursor=pointer]:
+                  - /url: /uk/products
+              - listitem [ref=e563]:
+                - link "Sourcing" [ref=e564] [cursor=pointer]:
+                  - /url: /uk/sourcing
+              - listitem [ref=e565]:
+                - link "Interviewing" [ref=e566] [cursor=pointer]:
+                  - /url: /uk/voice-ai-interviewing
+              - listitem [ref=e567]:
+                - link "ATS Solutions" [ref=e568] [cursor=pointer]:
+                  - /url: /uk/ats
+          - generic [ref=e569]:
+            - heading "Greenhouse for candidates" [level=2] [ref=e570]
+            - list [ref=e571]:
+              - listitem [ref=e572]:
+                - link "Find your Dream Job" [ref=e573] [cursor=pointer]:
+                  - /url: /uk/for-job-seekers
+          - generic [ref=e574]:
+            - heading "Choose Greenhouse" [level=2] [ref=e575]
+            - list [ref=e576]:
+              - listitem [ref=e577]:
+                - link "How we compare" [ref=e578] [cursor=pointer]:
+                  - /url: /uk/compare
+              - listitem [ref=e579]:
+                - link "Latest releases" [ref=e580] [cursor=pointer]:
+                  - /url: /uk/greenhouse-latest-features
+              - listitem [ref=e581]:
+                - link "Pricing" [ref=e582] [cursor=pointer]:
+                  - /url: /uk/pricing
+        - generic [ref=e583]:
+          - generic [ref=e584]:
+            - link [ref=e585] [cursor=pointer]:
+              - /url: https://www.facebook.com/greenhouse.io/
+              - img "facebook" [ref=e586]
+            - link [ref=e587] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/greenhouse-inc-/
+              - img "linkedin" [ref=e588]
+            - link [ref=e589] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCwLlhrx5lFssgTwKCHEuC8g
+              - img "youtube" [ref=e590]
+            - link [ref=e591] [cursor=pointer]:
+              - /url: https://www.instagram.com/greenhousesoftware/
+              - img "instagram" [ref=e592]
+            - link [ref=e593] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@greenhouse_software
+              - img "tiktok" [ref=e594]
+          - generic [ref=e595]:
+            - strong [ref=e596]: ©
+            - text: 2026 Greenhouse Software, Inc.All rights reserved. Greenhouse, the G Logo, “Hire for what’s next,” “The/your all-together hiring platform,” “Talent Makers,” “Real Talent” and “Strong Yes” are among the trademarks of Greenhouse Software, Inc.
+      - navigation "footer menu" [ref=e598]:
+        - generic [ref=e599]:
+          - heading "Capabilities" [level=2] [ref=e600]
+          - list [ref=e601]:
+            - listitem [ref=e602]:
+              - link "Talent sourcing" [ref=e603] [cursor=pointer]:
+                - /url: /uk/talent-sourcing
+            - listitem [ref=e604]:
+              - link "Fraud detection" [ref=e605] [cursor=pointer]:
+                - /url: /uk/real-talent-candidate-matching
+            - listitem [ref=e606]:
+              - link "Interviewing" [ref=e607] [cursor=pointer]:
+                - /url: /uk/voice-ai-interviewing
+            - listitem [ref=e608]:
+              - link "Notetaker" [ref=e609] [cursor=pointer]:
+                - /url: /uk/product-features/greenhouse-notetaker
+            - listitem [ref=e610]:
+              - link "Scheduling" [ref=e611] [cursor=pointer]:
+                - /url: /uk/product-features/scheduling-links-and-self-schedule-windowing
+            - listitem [ref=e612]:
+              - link "Reporting & analytics" [ref=e613] [cursor=pointer]:
+                - /url: /uk/reporting-insights
+            - listitem [ref=e614]:
+              - link "AI Recruiting" [ref=e615] [cursor=pointer]:
+                - /url: /uk/ai-recruiting
+            - listitem [ref=e616]:
+              - link "MCP" [ref=e617] [cursor=pointer]:
+                - /url: /uk/product-features/greenhouse-mcp
+            - listitem [ref=e618]:
+              - link "Onboarding" [ref=e619] [cursor=pointer]:
+                - /url: /uk/onboarding
+            - listitem [ref=e620]:
+              - link "Integrations" [ref=e621] [cursor=pointer]:
+                - /url: https://integrations.greenhouse.com
+        - generic [ref=e622]:
+          - heading "Company size" [level=2] [ref=e623]
+          - list [ref=e624]:
+            - listitem [ref=e625]:
+              - link "Modern enterprise" [ref=e626] [cursor=pointer]:
+                - /url: /uk/enterprise
+            - listitem [ref=e627]:
+              - link "Scaling company" [ref=e628] [cursor=pointer]:
+                - /url: /uk/scaling-company
+            - listitem [ref=e629]:
+              - link "Early-stage business" [ref=e630] [cursor=pointer]:
+                - /url: /uk/early-stage
+        - generic [ref=e631]:
+          - heading "Trust & security" [level=2] [ref=e632]
+          - list [ref=e633]:
+            - listitem [ref=e634]:
+              - link "Security" [ref=e635] [cursor=pointer]:
+                - /url: /uk/security
+            - listitem [ref=e636]:
+              - link "Ethical principles" [ref=e637] [cursor=pointer]:
+                - /url: /uk/ethical-principles
+            - listitem [ref=e638]:
+              - link "AI principles" [ref=e639] [cursor=pointer]:
+                - /url: /uk/ai-principles
+            - listitem [ref=e640]:
+              - link "Bias audit statement" [ref=e641] [cursor=pointer]:
+                - /url: /uk/bias-audit-statement
+        - generic [ref=e642]:
+          - heading "Support" [level=2] [ref=e643]
+          - list [ref=e644]:
+            - listitem [ref=e645]:
+              - link "Learn Greenhouse" [ref=e646] [cursor=pointer]:
+                - /url: https://learn.greenhouse.io/
+            - listitem [ref=e647]:
+              - link "Customer support" [ref=e648] [cursor=pointer]:
+                - /url: https://support.greenhouse.io/hc/en-us
+            - listitem [ref=e649]:
+              - link "Developer resources" [ref=e650] [cursor=pointer]:
+                - /url: https://developers.greenhouse.io/
+            - listitem [ref=e651]:
+              - link "Your partner in success" [ref=e652] [cursor=pointer]:
+                - /url: /uk/customer-success
+        - generic [ref=e653]:
+          - heading "Community" [level=2] [ref=e654]
+          - list [ref=e655]:
+            - listitem [ref=e656]:
+              - link "Events & webinars" [ref=e657] [cursor=pointer]:
+                - /url: /uk/events
+            - listitem [ref=e658]:
+              - link "Open" [ref=e659] [cursor=pointer]:
+                - /url: /uk/open
+            - listitem [ref=e660]:
+              - link "Talent Makers" [ref=e661] [cursor=pointer]:
+                - /url: /uk/talent-makers
+            - listitem [ref=e662]:
+              - link "Newsletter" [ref=e663] [cursor=pointer]:
+                - /url: /uk/newsletter
+        - generic [ref=e664]:
+          - heading "Resources" [level=2] [ref=e665]
+          - list [ref=e666]:
+            - listitem [ref=e667]:
+              - link "Blog" [ref=e668] [cursor=pointer]:
+                - /url: /uk/blog
+            - listitem [ref=e669]:
+              - link "Guidance" [ref=e670] [cursor=pointer]:
+                - /url: /uk/guidance
+            - listitem [ref=e671]:
+              - link "Customer stories" [ref=e672] [cursor=pointer]:
+                - /url: /uk/customer-stories
+            - listitem [ref=e673]:
+              - link "Hiring glossary" [ref=e674] [cursor=pointer]:
+                - /url: /uk/resources/glossary
+            - listitem [ref=e675]:
+              - link "AI Instructions" [ref=e676] [cursor=pointer]:
+                - /url: /llms.txt
+        - generic [ref=e677]:
+          - heading "About" [level=2] [ref=e678]
+          - list [ref=e679]:
+            - listitem [ref=e680]:
+              - link "Company" [ref=e681] [cursor=pointer]:
+                - /url: /uk/company
+            - listitem [ref=e682]:
+              - link "Partnerships" [ref=e683] [cursor=pointer]:
+                - /url: /uk/greenhouse-partner-resource-center
+            - listitem [ref=e684]:
+              - link "Press & awards" [ref=e685] [cursor=pointer]:
+                - /url: /uk/press
+            - listitem [ref=e686]:
+              - link "Newsroom" [ref=e687] [cursor=pointer]:
+                - /url: /uk/newsroom
+            - listitem [ref=e688]:
+              - link "Careers" [ref=e689] [cursor=pointer]:
+                - /url: /uk/careers
+            - listitem [ref=e690]:
+              - link "Contact" [ref=e691] [cursor=pointer]:
+                - /url: /uk/contact
+      - generic [ref=e692]:
+        - generic [ref=e693]:
+          - generic [ref=e694]: Modern Recruiter newsletter
+          - generic [ref=e695]: Our bi-weekly newsletter full of inspiration, podcasts, trends and news.
+          - generic [ref=e699]:
+            - generic [ref=e702]:
+              - generic [ref=e703]:
+                - generic [ref=e704]: "*"
+                - text: Email address
+              - textbox "* Email address" [ref=e705]
+            - button "Subscribe" [ref=e707] [cursor=pointer]
+        - generic [ref=e708]:
+          - generic [ref=e709]:
+            - generic [ref=e710]: Choose your language
+            - list [ref=e712]:
+              - listitem [ref=e713]:
+                - link "English (US)" [ref=e714] [cursor=pointer]:
+                  - /url: /?r=0
+              - listitem [ref=e715]:
+                - link "English (UK)" [ref=e716] [cursor=pointer]:
+                  - /url: /uk
+              - listitem [ref=e717]:
+                - link "Deutsch" [ref=e718] [cursor=pointer]:
+                  - /url: /de
+          - generic [ref=e720]:
+            - button "Cookie preferences" [ref=e721] [cursor=pointer]
+            - list [ref=e722]:
+              - listitem [ref=e723]:
+                - link "Privacy policy" [ref=e724] [cursor=pointer]:
+                  - /url: /uk/privacy-policy
+              - listitem [ref=e725]:
+                - link "Terms of service" [ref=e726] [cursor=pointer]:
+                  - /url: /uk/legal
+  - dialog "Privacy" [ref=e730]:
+    - generic [ref=e732]:
+      - generic [ref=e735]:
+        - text: By clicking “Accept all cookies,” you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+        - link "More information about your privacy, opens in a new tab" [ref=e736] [cursor=pointer]:
+          - /url: https://www.greenhouse.com/privacy-policy
+          - text: Privacy policy
+      - generic [ref=e738]:
+        - button "Cookie preferences, Opens the preference center dialog" [ref=e739] [cursor=pointer]: Cookie preferences
+        - button "Accept all cookies" [ref=e740] [cursor=pointer]
