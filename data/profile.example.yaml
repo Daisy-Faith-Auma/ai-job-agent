@@ -1,0 +1,58 @@
+# Copy to data/profile.yaml and fill in the blanks. Keep it out of Git.
+full_name: ""
+email: ""
+phone: ""
+linkedin: ""
+based_in: "Nairobi, Kenya"
+notice_period: "None, available immediately"
+
+standard_answers:
+  why_leaving: ""
+  remote_preference: ""
+
+# Region is chosen from where the employing entity would hire you.
+# Remote roles open to Kenya-based contractors or employees: use kenya
+# answers for sponsorship, but the employer's region for document style.
+regions:
+  kenya:
+    match: ["Kenya", "Nairobi", "East Africa"]
+    authorised_to_work: "Yes"
+    requires_sponsorship: "No"
+    salary_expectation: ""          # KES, monthly gross
+    cv:
+      max_pages: 3
+      paper: A4
+      spelling: British
+      photo: false
+      personal_details: "name, phone, email, LinkedIn, Nairobi"
+      referees: "List 2 to 3 referees with title, organisation, phone and email"
+    cover_letter: "Formal, addressed to the hiring manager by name if known"
+
+  uk:
+    match: ["United Kingdom", "UK", "England", "Scotland", "Wales", "Northern Ireland", "London"]
+    authorised_to_work: "No"
+    requires_sponsorship: "Yes (Skilled Worker visa)"
+    salary_expectation: ""          # GBP, annual gross
+    cv:
+      max_pages: 2
+      paper: A4
+      spelling: British
+      photo: false
+      personal_details: "name, phone, email, LinkedIn, city and country only. No date of birth, marital status, nationality or photo"
+      referees: "Omit. Do not write 'references available on request'"
+    cover_letter: "Concise and direct, one page, evidence-led"
+
+  eu:
+    match: ["European Union", "EU", "Germany", "Netherlands", "Ireland", "France", "Spain", "Portugal", "Poland", "Sweden", "Denmark", "Belgium", "Austria", "Finland", "Italy", "Berlin", "Amsterdam", "Dublin", "Lisbon"]
+    authorised_to_work: "No"
+    requires_sponsorship: "Yes (work permit or EU Blue Card)"
+    salary_expectation: ""          # EUR, annual gross
+    cv:
+      max_pages: 2
+      paper: A4
+      spelling: "British, unless the posting uses US spelling"
+      photo: false                  # optional in some countries; keep off unless the posting asks
+      personal_details: "name, phone, email, LinkedIn, city and country"
+      referees: "Omit unless requested"
+      gdpr_clause: "Add only if the posting asks for a data-processing consent clause"
+    cover_letter: "One page, formal. Write in English unless the posting is in another language; if it is, flag NEEDS DAISY"

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Blocks any commit that includes personal data, even with git add -f.
+exec bash scripts/check_private.sh

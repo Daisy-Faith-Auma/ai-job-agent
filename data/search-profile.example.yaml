@@ -1,0 +1,13 @@
+target_roles: [Technical Writer, Developer Relations Engineer, Developer Advocate]
+locations: [Nairobi, Remote, United Kingdom, London, Germany, Netherlands, Ireland]
+experience_level: [Mid, Senior]
+posted_within_days: 7
+minimum_estimated_match: 75
+maximum_results: 25
+max_packets_per_run: 3
+
+# Auto-apply gates (read by scripts/tracker.py claim)
+auto_submit_enabled: false            # set true after a week of dry runs
+auto_submit_min_match: 85
+max_auto_submits_per_day: 5
+auto_submit_domains: [boards.greenhouse.io, job-boards.greenhouse.io, jobs.lever.co, apply.workable.com, jobs.ashbyhq.com]

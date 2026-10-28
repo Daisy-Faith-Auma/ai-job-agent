@@ -1,0 +1,12 @@
+# PUBLIC REPO: everything personal stays on your machine only.
+# Your CV, profile, salary, referees, job tracker, packets and logs:
+data/*
+!data/profile.example.yaml
+!data/search-profile.example.yaml
+logs/
+# Login cookies and secrets:
+.browser-profile/
+.env
+AUTO_APPLY_OFF
+__pycache__/
+*.tmp
