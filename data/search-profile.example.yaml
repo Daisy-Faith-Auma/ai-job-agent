@@ -1,4 +1,5 @@
-target_roles: [Technical Writer, Senior Technical Writer, Documentation Engineer, Content Engineer, Developer Relations Engineer, Developer Advocate, Developer Educator, Developer Experience Engineer, Data Analyst]locations: [Nairobi, Remote, United Kingdom, London, Germany, Netherlands, Ireland]
+target_roles: [Technical Writer, Developer Relations Engineer, Developer Advocate]
+locations: [Nairobi, Remote, United Kingdom, London, Germany, Netherlands, Ireland]
 experience_level: [Mid, Senior]
 posted_within_days: 14
 minimum_estimated_match: 75
